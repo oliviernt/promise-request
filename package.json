@@ -4,6 +4,7 @@
         "email" : "olivier.tille@gmail.com",
         "url" : "https://twitter.com/oliviernt"
     },
+    "name" : "promise-request",
     "description" : " Node.js promise wrapped http request micro library",
     "repository": { 
         "type" : "git", 
