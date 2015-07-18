@@ -1,0 +1,15 @@
+{
+    "author" : {
+        "name" : "Olivier Tille",
+        "email" : "olivier.tille@gmail.com",
+        "url" : "https://twitter.com/oliviernt"
+    },
+    "description" : " Node.js promise wrapped http request micro library",
+    "repository": { 
+        "type" : "git", 
+        "url" : "https://github.com/oliviernt/promise-request"
+    },
+    "bugs" : "https://github.com/oliviernt/promise-request/issues",
+    "license" : "MIT",
+    "main" : "index.js"
+}
