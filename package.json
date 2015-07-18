@@ -11,5 +11,5 @@
     },
     "bugs" : "https://github.com/oliviernt/promise-request/issues",
     "license" : "MIT",
-    "main" : "index.js"
+    "main" : "promise-request.js"
 }

@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+'use strict';
+
 var http = require('http'),
     https = require('https'),
     util = require('util');
@@ -14,8 +15,7 @@ var http = require('http'),
  */
 module.exports = function(options, body) {
     var config = {
-        scheme: 'http',
-        port: 80
+        scheme: 'http'
     };
     options = util._extend(config, options);
     return new Promise(function(resolve, reject) {
