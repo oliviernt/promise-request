@@ -19,14 +19,16 @@ module.exports = function(options, body) {
     };
     options = util._extend(config, options);
     return new Promise(function(resolve, reject) {
-        var module = config.scheme === 'http' ? http : https;
+        var module = config.scheme === 'https' ? https : http;
         var request = module.request(options, function(response) {
             var _data = '';
             response.on('data', function(data) {
                 _data += data.toString();
             });
             response.on('end', function() {
-                resolve(_data);
+                resolve(util._extend(response, {
+                    data: _data
+                }));
             });
             response.on('error', function(error) {
                 reject(error);
