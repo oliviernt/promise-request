@@ -21,6 +21,9 @@ module.exports = function(options, body) {
     return new Promise(function(resolve, reject) {
         var module = config.scheme === 'https' ? https : http;
         var request = module.request(options, function(response) {
+            if (response.statusCode >= 400) {
+                reject(response);
+            }
             var _data = '';
             response.on('data', function(data) {
                 _data += data.toString();
