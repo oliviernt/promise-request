@@ -28,7 +28,7 @@ request(config).then(function(result) {
     - scheme: [_string_] http or https. Default: http
     - serialize: [_function_] will be executed on request body. Default: JSON.stringify()
     - deserialize: [_function_] will be executed on response body. Default: JSON.parse()
-    - ... more: see [https://nodejs.org/api/http.html#http_http_request_options_callback]()
+    - ... more: see [https://nodejs.org/api/http.html#http_http_request_options_callback](https://nodejs.org/api/http.html#http_http_request_options_callback)
 - body: object to send as the request body. options.serialize will be applied on it.
 
 ## Tests
