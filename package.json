@@ -13,7 +13,7 @@
   "bugs": "https://github.com/oliviernt/promise-request/issues",
   "license": "MIT",
   "main": "promise-request.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "devDependencies": {
     "nock": "^2.7.0"
   }
