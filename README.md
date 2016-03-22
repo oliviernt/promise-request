@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/oliviernt/promise-request.svg?branch=master)](https://travis-ci.org/oliviernt/promise-request)
+
 # Promise based request
 
 A Node.js promise wrapped http request micro library
@@ -5,7 +7,7 @@ A Node.js promise wrapped http request micro library
 This little lib offers a Promise wrapped http(s).request method.
 
 ## Usage
-    
+
 ``` js
 var request = require('./promise-request');
 
@@ -24,7 +26,7 @@ request(config).then(function(result) {
 ```
 
 ## Parameters:
-- options: 
+- options:
     - scheme: [_string_] http or https. Default: http
     - serialize: [_function_] will be executed on request body. Default: JSON.stringify()
     - deserialize: [_function_] will be executed on response body. Default: JSON.parse()
