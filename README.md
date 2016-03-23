@@ -1,8 +1,6 @@
-[![Build Status](https://travis-ci.org/oliviernt/promise-request.svg?branch=master)](https://travis-ci.org/oliviernt/promise-request)
-
 # Promise based request
 
-[![Join the chat at https://gitter.im/oliviernt/promise-request](https://badges.gitter.im/oliviernt/promise-request.svg)](https://gitter.im/oliviernt/promise-request?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/oliviernt/promise-request.svg?branch=master)](https://travis-ci.org/oliviernt/promise-request) [![Join the chat at https://gitter.im/oliviernt/promise-request](https://badges.gitter.im/oliviernt/promise-request.svg)](https://gitter.im/oliviernt/promise-request?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A Node.js promise wrapped http request micro library
 
