@@ -2,6 +2,8 @@
 
 # Promise based request
 
+[![Join the chat at https://gitter.im/oliviernt/promise-request](https://badges.gitter.im/oliviernt/promise-request.svg)](https://gitter.im/oliviernt/promise-request?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A Node.js promise wrapped http request micro library
 
 This little lib offers a Promise wrapped http(s).request method.
